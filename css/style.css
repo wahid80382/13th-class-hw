@@ -1,0 +1,331 @@
+/* common css start */
+:root {
+    --primary-font: ;
+    --primary-color: darkgray;
+    --secondary-color: black;
+    --enkor-color: white;
+    --main-background: darkslategray;
+
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.frame {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    background-color: var(--main-background);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--enkor-color);
+    padding: 60px;
+}
+
+.w50 {
+    width: 50%;
+}
+.goto_upward{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--enkor-color);
+    background-color: var(--enkor-color);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    text-align: center;
+    line-height: 45px;
+    color: cadetblue;
+    font-size:xx-large;
+    cursor: pointer;
+}
+.goto_upward:hover{
+    background-color: aqua;
+ }
+
+/* common css end */
+/* nav css start */
+#sark {
+    border-radius: 10px;
+    background-color: cadetblue;
+    height: 800px;
+}
+
+nav{
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:1px;
+    background-color: cadetblue;
+}
+
+nav .logo {
+    align-items: center;
+}
+
+nav img {
+    width: 200px;
+    height: 50px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+nav li a {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 17px 15px;
+    color: var(--enkor-color);
+}
+nav li a:hover {
+    background-color: darkgreen;
+}
+
+
+nav p {
+    color: var(--enkor-color);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 17px 15px;
+}
+nav p:hover{
+    background-color: darkgreen;
+}
+
+nav button {
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--enkor-color);
+    background-color: rgb(26, 198, 204);
+    border: none;
+    margin-right: 10px;
+}
+nav button:hover{
+    background-color: darkgreen;
+}
+#daco {
+    border: 1px double rgb(110, 110, 180);
+    width: 1155px;
+    margin: 0 33px;
+}
+
+/* nav css end */
+/* sus business  css start */
+#saas_business {
+    padding: 50px 0;
+
+}
+
+#saas_business .heading h3 {
+    font-size: 25px;
+    color: chartreuse;
+}
+
+#saas_business .heading h1 {
+    font-size: 60px;
+    color: var(--enkor-color);
+    padding-right: 50px;
+}
+
+#saas_business .saas_business_email input {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: darkgray;
+    border: none;
+    font-size: 20px;
+    color: var(--enkor-color);
+
+
+}
+
+#saas_business .saas_business_email {
+    position: relative;
+}
+
+#saas_business .saas_business_email .ebutton {
+    padding: 18px;
+    position: absolute;
+    right: 0px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+}
+
+/* sus business css end */
+/* sus business video start */
+#sus_business_video {
+    padding: 30px;
+    background-color: rgba(38, 102, 81, 0.11);
+    border-radius: 10px;
+}
+
+#sus_business_video .sus_manu {
+    justify-content: space-between;
+    align-items: center;
+}
+#sus_business_video .sus_business_body .info {
+    width: 65%;
+    padding: 60px;
+}
+#sus_business_video .sus_business_body .info li{
+    padding: 15px 0;
+}
+#sus_business_video .sus_business_body .info ul{
+    list-style: circle;
+}
+#sus_business_video .sus_business_body .info li h5{
+    
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+#sus_business_video .sus_business_body .info li p{
+    
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+#sus_business_video  .image{
+    width: 35%;
+    padding: 20px 20px;
+    position: relative;
+}
+#sus_business_video .image img{
+    max-width: 100%;
+    border-radius: 10px;
+  
+ }
+ #sus_business_video .image i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--enkor-color);
+    color:darkcyan;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    right: 45%;
+    top:45%;
+    font-size: x-large;
+    cursor: pointer;
+ }
+ 
+ #sus_business_video .image i:hover{
+    background-color: aqua;
+ }
+
+/* sus business video end */
+/* video section css start */
+#video-section {
+
+    padding: 100px 0;
+}
+
+#video-section .vs-data {
+    background-color: aliceblue;
+    padding: 15px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.vs-info {
+
+    padding: 60px;
+    width: 65%;
+}
+
+.vs-image {
+    position: relative;
+    padding: 5px 60px;
+    width: 35%;
+}
+
+.vs-info h5 {
+    font-size: 20px;
+    font-weight: 400px;
+    color: var(--secondary-color)
+}
+
+.vs-info h2 {
+    font-size: 35px;
+    font-weight: 700px;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    padding: 10px 0;
+}
+
+.vs-info p {
+    text-align: justify;
+    font-weight: 400px;
+    color: var(--primary-color);
+    padding-bottom: 40px;
+}
+
+.vs-info a {
+    padding: 15px 20px;
+    background-color: darkcyan;
+    font-size: 25px;
+    font-weight: 400px;
+    color: var(--enkor-color);
+    border-radius: 10px;
+}
+
+.vs-image img {
+    height: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.vs-image i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
+    color: darkcyan;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    right: 45%;
+    top: 45%;
+    font-size:larger;
+    cursor: pointer;
+}
+.vs-image i:hover{
+    background-color: aqua;
+ }
+
+/* video section css end */
